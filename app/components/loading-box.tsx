@@ -40,7 +40,7 @@ export default function LoadingBox() {
   }, []);
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center z-50">
+    <div className="inset-0 flex items-center justify-center">
       <MessageContainer promise={promise} />
     </div>
   );
