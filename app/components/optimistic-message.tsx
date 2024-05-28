@@ -1,4 +1,3 @@
-import { Ref } from "react";
 import { useOptimistic, useState, useRef } from "react";
 
 export async function deliverMessage(message: string) {
@@ -54,7 +53,7 @@ function Feeds({ messages, sendMessage }: FeedsProps) {
 
 export default function OptimisticMessage() {
   const [messages, setMessages] = useState<Message[]>([
-    { text: "Hello there!", sending: false, key: 1 },
+    { text: "Hey there!", sending: false, key: 1 },
   ]);
   async function sendMessage(formData: HTMLFormElement) {
     const sentMessage = await deliverMessage(formData.get("message"));
