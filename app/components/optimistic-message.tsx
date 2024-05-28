@@ -12,15 +12,15 @@ type Message = {
 };
 interface FeedsProps {
   messages: Message[];
-  sendMessage: (formData: HTMLFormElement) => Promise<void>;
+  sendMessage: (formEl: HTMLFormElement) => Promise<void>;
 }
 
 function Feeds({ messages, sendMessage }: FeedsProps) {
   const formRef = useRef<HTMLFormElement | null>(null);
-  async function formAction(formData: HTMLFormElement) {
-    addOptimisticMessage(formData?.get("message"));
+  async function formAction(formEl: HTMLFormElement) {
+    addOptimisticMessage(formEl?.get("message"));
     formRef.current?.reset();
-    await sendMessage(formData);
+    await sendMessage(formEl);
   }
   const [optimisticMessages, addOptimisticMessage] = useOptimistic(
     messages,
