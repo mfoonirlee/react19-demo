@@ -34,7 +34,7 @@ function Feeds({ messages, sendMessage }: FeedsProps) {
   );
 
   return (
-    <div className="h-80 inset-0 flex items-start justify-end flex-col">
+    <div className="h-80 inset-0 flex items-center justify-end flex-col">
       {optimisticMessages.map((message: Message, index: number) => (
         <div key={index}>
           {message.text}

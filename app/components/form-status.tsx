@@ -15,7 +15,7 @@ function Submit() {
 
 export default function FormStatus() {
   return (
-    <form action={asyncAction}>
+    <form action={asyncAction} className="flex items-center justify-center">
       <Submit />
     </form>
   );
