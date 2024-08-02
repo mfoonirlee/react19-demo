@@ -11,7 +11,8 @@
   "dependencies": {
     "next": "15.0.0-rc.0",
     "react": "^19.0.0-rc-6230622a1a-20240610",
-    "react-dom": "^19.0.0-rc-6230622a1a-20240610"
+    "react-dom": "^19.0.0-rc-6230622a1a-20240610",
+    "use-deep-compare-effect": "^1.8.1"
   },
   "devDependencies": {
     "@types/node": "^20",

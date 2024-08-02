@@ -4,6 +4,7 @@ import LoadingBox from "./components/loading-box";
 import OptimisticMessage from "./components/optimistic-message";
 import FormStatus from "./components/form-status";
 import ActionStateForm from "./components/action-state";
+import DeepCompareEffect from "./components/deep-compare-effect";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <OptimisticMessage />
       <ActionStateForm />
       <FormStatus />
+      <DeepCompareEffect />
     </main>
   );
 }
