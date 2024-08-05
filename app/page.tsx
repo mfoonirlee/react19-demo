@@ -5,6 +5,7 @@ import OptimisticMessage from "./components/optimistic-message";
 import FormStatus from "./components/form-status";
 import ActionStateForm from "./components/action-state";
 import DeepCompareEffect from "./components/deep-compare-effect";
+import JumpGame from "./components/jump-game";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <ActionStateForm />
       <FormStatus />
       <DeepCompareEffect />
+      <JumpGame suppressHydrationWarning />
     </main>
   );
 }
