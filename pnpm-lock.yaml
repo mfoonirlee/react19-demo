@@ -8,17 +8,17 @@ specifiers:
   eslint-config-next: 14.2.3
   next: 15.0.0-rc.0
   postcss: ^8
-  react: ^19.0.0-rc-6230622a1a-20240610
-  react-dom: ^19.0.0-rc-6230622a1a-20240610
+  react: ^19.0.0-rc-2d2cc042-20240809
+  react-dom: ^19.0.0-rc-2d2cc042-20240809
   tailwindcss: ^3.4.1
   typescript: ^5
   use-deep-compare-effect: ^1.8.1
 
 dependencies:
-  next: 15.0.0-rc.0_ab83e2008d400aaf2538995290f7385f
-  react: 19.0.0-rc-f994737d14-20240522
-  react-dom: 19.0.0-rc-f994737d14-20240522_c1f0a4aac925d6b31970f53733fd2a64
-  use-deep-compare-effect: 1.8.1_c1f0a4aac925d6b31970f53733fd2a64
+  next: 15.0.0-rc.0_8cd83beb664c3dc71866c189973de12f
+  react: 19.0.0-rc-2d2cc042-20240809
+  react-dom: 19.0.0-rc-2d2cc042-20240809_59eaf28f1ffcbf843ff57148ab95ccca
+  use-deep-compare-effect: 1.8.1_59eaf28f1ffcbf843ff57148ab95ccca
 
 devDependencies:
   '@types/node': 20.14.2
@@ -2090,7 +2090,7 @@ packages:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: true
 
-  /next/15.0.0-rc.0_ab83e2008d400aaf2538995290f7385f:
+  /next/15.0.0-rc.0_8cd83beb664c3dc71866c189973de12f:
     resolution: {integrity: sha512-IWcCvxUSCAuOK5gig4+9yiyt/dLKpIa+WT01Qcx4CBE4TtwJljyTDnCVVn64jDZ4qmSzsaEYXpb4DTI8qbk03A==}
     engines: {node: '>=18.17.0'}
     hasBin: true
@@ -2117,9 +2117,9 @@ packages:
       caniuse-lite: 1.0.30001636
       graceful-fs: 4.2.11
       postcss: 8.4.31
-      react: 19.0.0-rc-f994737d14-20240522
-      react-dom: 19.0.0-rc-f994737d14-20240522_c1f0a4aac925d6b31970f53733fd2a64
-      styled-jsx: 5.1.3_c1f0a4aac925d6b31970f53733fd2a64
+      react: 19.0.0-rc-2d2cc042-20240809
+      react-dom: 19.0.0-rc-2d2cc042-20240809_59eaf28f1ffcbf843ff57148ab95ccca
+      styled-jsx: 5.1.3_59eaf28f1ffcbf843ff57148ab95ccca
     optionalDependencies:
       '@next/swc-darwin-arm64': 15.0.0-rc.0
       '@next/swc-darwin-x64': 15.0.0-rc.0
@@ -2411,21 +2411,21 @@ packages:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
     dev: true
 
-  /react-dom/19.0.0-rc-f994737d14-20240522_c1f0a4aac925d6b31970f53733fd2a64:
-    resolution: {integrity: sha512-J4CsfTSptPKkhaPbaR6n/KohQiHZTrRZ8GL4H8rbAqN/Qpy69g2MIoLBr5/PUX21ye6JxC1ZRWJFna7Xdg1pdA==}
+  /react-dom/19.0.0-rc-2d2cc042-20240809_59eaf28f1ffcbf843ff57148ab95ccca:
+    resolution: {integrity: sha512-fe+8TmO3zevW08+LPk9qS93LE2Y5H87l3q6dHNM7zQpelCNCeaPGeSoHAsehx2e2LRv7Iapb/qJLAUUUT9pnvw==}
     peerDependencies:
-      react: 19.0.0-rc-f994737d14-20240522
+      react: 19.0.0-rc-2d2cc042-20240809
     dependencies:
-      react: 19.0.0-rc-f994737d14-20240522
-      scheduler: 0.25.0-rc-f994737d14-20240522
+      react: 19.0.0-rc-2d2cc042-20240809
+      scheduler: 0.25.0-rc-2d2cc042-20240809
     dev: false
 
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: true
 
-  /react/19.0.0-rc-f994737d14-20240522:
-    resolution: {integrity: sha512-SeU2v5Xy6FotVhKz0pMS2gvYP7HlkF0qgTskj3JzA1vlxcb3dQjxlm9t0ZlJqcgoyI3VFAw7bomuDMdgy1nBuw==}
+  /react/19.0.0-rc-2d2cc042-20240809:
+    resolution: {integrity: sha512-+yW7RLHtdV9YKmHxFJoKrC80vJPv2If5J8MVw7Ui7NTcBs7bIpwSIaY2vrciPRb7B7JqG3TsZHxo12q/inYUhw==}
     engines: {node: '>=0.10.0'}
     dev: false
 
@@ -2533,8 +2533,8 @@ packages:
       is-regex: 1.1.4
     dev: true
 
-  /scheduler/0.25.0-rc-f994737d14-20240522:
-    resolution: {integrity: sha512-qS+xGFF7AljP2APO2iJe8zESNsK20k25MACz+WGOXPybUsRdi1ssvaoF93im2nSX2q/XT3wKkjdz6RQfbmaxdw==}
+  /scheduler/0.25.0-rc-2d2cc042-20240809:
+    resolution: {integrity: sha512-Pce2RM+MMbQhcPWp21DiVnqlyjo4/Dz4cyW2pQpgz1fFoiuQL0Vfjt6A8M990V/2eBECcVvKAoKzYSAeLPmj6g==}
     dev: false
 
   /semver/6.3.1:
@@ -2736,7 +2736,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /styled-jsx/5.1.3_c1f0a4aac925d6b31970f53733fd2a64:
+  /styled-jsx/5.1.3_59eaf28f1ffcbf843ff57148ab95ccca:
     resolution: {integrity: sha512-qLRShOWTE/Mf6Bvl72kFeKBl8N2Eq9WIFfoAuvbtP/6tqlnj1SCjv117n2MIjOPpa1jTorYqLJgsHKy5Y3ziww==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
@@ -2750,7 +2750,7 @@ packages:
         optional: true
     dependencies:
       client-only: 0.0.1
-      react: 19.0.0-rc-f994737d14-20240522
+      react: 19.0.0-rc-2d2cc042-20240809
     dev: false
 
   /sucrase/3.35.0:
@@ -2958,7 +2958,7 @@ packages:
       punycode: 2.3.1
     dev: true
 
-  /use-deep-compare-effect/1.8.1_c1f0a4aac925d6b31970f53733fd2a64:
+  /use-deep-compare-effect/1.8.1_59eaf28f1ffcbf843ff57148ab95ccca:
     resolution: {integrity: sha512-kbeNVZ9Zkc0RFGpfMN3MNfaKNvcLNyxOAAd9O4CBZ+kCBXXscn9s/4I+8ytUER4RDpEYs5+O6Rs4PqiZ+rHr5Q==}
     engines: {node: '>=10', npm: '>=6'}
     peerDependencies:
@@ -2966,7 +2966,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.24.7
       dequal: 2.0.3
-      react: 19.0.0-rc-f994737d14-20240522
+      react: 19.0.0-rc-2d2cc042-20240809
     dev: false
 
   /util-deprecate/1.0.2:

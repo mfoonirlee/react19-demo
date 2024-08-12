@@ -6,6 +6,7 @@ import FormStatus from "./components/form-status";
 import ActionStateForm from "./components/action-state";
 import DeepCompareEffect from "./components/deep-compare-effect";
 import JumpGame from "./components/jump-game";
+import Todo from "./components/todo";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <FormStatus />
       <DeepCompareEffect />
       <JumpGame suppressHydrationWarning />
+      <Todo />
     </main>
   );
 }
